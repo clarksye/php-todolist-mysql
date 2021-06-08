@@ -9,6 +9,6 @@ class Database {
         $username = "root";
         $password = "";
 
-        return new \PDO("mysql:host=$host;dbnames=$database", $username, $password);
+        return new \PDO("mysql:host=$host;dbname=$database", $username, $password);
     }
 }
